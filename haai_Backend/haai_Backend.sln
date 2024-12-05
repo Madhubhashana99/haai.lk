@@ -5,6 +5,18 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haai_Backend", "haai_Backend\haai_Backend.csproj", "{5A465E17-10F7-49F5-8174-FE0A8CC8DBB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haai_Backend.AdminPortal", "haai_Backend.AdminPortal\haai_Backend.AdminPortal.csproj", "{99D97EBA-84B9-4F5E-9C89-DD03A9F5B3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haai_Backend.CustomerPortal", "haai_Backend.CustomerPortal\haai_Backend.CustomerPortal.csproj", "{EA055528-DADF-4281-938C-0E05CE331E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haai_Backend.Application", "haai_Backend.Application\haai_Backend.Application.csproj", "{5BDE6B7E-8B45-409C-967A-52AA5869ACCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haai_Backend.Infrastructure", "haai_Backend.Infrastructure\haai_Backend.Infrastructure.csproj", "{AF61E149-F3A4-4828-9A3A-3166A41755E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haai_Backend.Domain", "haai_Backend.Domain\haai_Backend.Domain.csproj", "{2D10B27F-0092-4C41-ADB3-5347DB9DDC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "haai_Backend.Presentation", "haai_Backend.Presentation\haai_Backend.Presentation.csproj", "{5D3003CC-962B-40EB-B1A0-E5F287C66F80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{5A465E17-10F7-49F5-8174-FE0A8CC8DBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A465E17-10F7-49F5-8174-FE0A8CC8DBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A465E17-10F7-49F5-8174-FE0A8CC8DBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D97EBA-84B9-4F5E-9C89-DD03A9F5B3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D97EBA-84B9-4F5E-9C89-DD03A9F5B3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D97EBA-84B9-4F5E-9C89-DD03A9F5B3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D97EBA-84B9-4F5E-9C89-DD03A9F5B3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA055528-DADF-4281-938C-0E05CE331E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA055528-DADF-4281-938C-0E05CE331E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA055528-DADF-4281-938C-0E05CE331E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA055528-DADF-4281-938C-0E05CE331E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDE6B7E-8B45-409C-967A-52AA5869ACCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDE6B7E-8B45-409C-967A-52AA5869ACCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDE6B7E-8B45-409C-967A-52AA5869ACCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDE6B7E-8B45-409C-967A-52AA5869ACCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF61E149-F3A4-4828-9A3A-3166A41755E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF61E149-F3A4-4828-9A3A-3166A41755E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF61E149-F3A4-4828-9A3A-3166A41755E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF61E149-F3A4-4828-9A3A-3166A41755E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D10B27F-0092-4C41-ADB3-5347DB9DDC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D10B27F-0092-4C41-ADB3-5347DB9DDC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D10B27F-0092-4C41-ADB3-5347DB9DDC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D10B27F-0092-4C41-ADB3-5347DB9DDC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3003CC-962B-40EB-B1A0-E5F287C66F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3003CC-962B-40EB-B1A0-E5F287C66F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3003CC-962B-40EB-B1A0-E5F287C66F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3003CC-962B-40EB-B1A0-E5F287C66F80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

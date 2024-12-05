@@ -12,3 +12,6 @@
 /haai_Backend/haai_Backend.Presentation/obj
 /haai_Backend/haai_Backend/bin/Debug/net8.0
 /haai_Backend/haai_Backend.AdminPortal/bin/Debug/net8.0
+/haai_Backend/haai_Backend/appsettings.Development.json
+/haai_Backend/haai_Backend.CustomerPortal/appsettings.Development.json
+/haai_Backend/haai_Backend.AdminPortal/appsettings.Development.json

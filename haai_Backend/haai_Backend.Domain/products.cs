@@ -12,19 +12,19 @@ namespace haai_Backend.Domain
     [Table ("products")]
    public class Product
     {
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
 
         [MaxLength (50)]
-        public string name { get; set; }
+        public string Name { get; set; }
 
         [MaxLength (50)]
-        public string description { get; set; }
+        public string Description { get; set; }
 
         [MaxLength (50)]
-        public string categoryId { get; set; }
+        public string CategoryId { get; set; }
 
         [MaxLength(50)]
-        public string price { get; set; }
+        public string Price { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 

@@ -11,27 +11,27 @@ namespace haai_Backend.Domain
     [Table("users")]
     public class User
     {
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
 
         [MaxLength(50)]
-        public string? name { get; set; }
+        public string? Name { get; set; }
 
         [MaxLength(50)]
-        public string? userName { get; set; }
+        public string? UserName { get; set; }
 
         [MaxLength(50)]
-        public string? email { get; set; }
+        public string? Email { get; set; }
 
         [MaxLength(50)]
-        public string? password { get; set; }
+        public string? Password { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-        public role role{ get; set; }
+        public Role Role{ get; set; }
     }
-    public enum role 
+    public enum Role 
     {
          Admin = 1,
          Customer = 2,

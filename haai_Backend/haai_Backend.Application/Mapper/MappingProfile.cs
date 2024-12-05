@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace haai_Backend.Infrastructure.Data
+namespace haai_Backend.Application.Mapper
 {
-    public class AppDbContext
+    public class MappingProfile
     {
 
     }

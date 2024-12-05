@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/haai_Backend/.vs/haai_Backend
+/haai_Backend/haai_Backend/obj
+/haai_Backend/haai_Backend.AdminPortal/obj
+/haai_Backend/haai_Backend.Application/obj
+/haai_Backend/haai_Backend.CustomerPortal/obj
+/haai_Backend/haai_Backend.Domain/obj
+/haai_Backend/haai_Backend.Infrastructure/obj
+/haai_Backend/haai_Backend.Presentation/obj

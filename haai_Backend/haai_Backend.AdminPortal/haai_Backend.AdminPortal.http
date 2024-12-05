@@ -1,0 +1,6 @@
+@haai_Backend.AdminPortal_HostAddress = http://localhost:5195
+
+GET {{haai_Backend.AdminPortal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

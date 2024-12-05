@@ -1,0 +1,6 @@
+@haai_Backend.CustomerPortal_HostAddress = http://localhost:5102
+
+GET {{haai_Backend.CustomerPortal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

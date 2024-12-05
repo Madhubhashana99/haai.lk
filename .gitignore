@@ -10,3 +10,5 @@
 /haai_Backend/haai_Backend.Domain/obj
 /haai_Backend/haai_Backend.Infrastructure/obj
 /haai_Backend/haai_Backend.Presentation/obj
+/haai_Backend/haai_Backend/bin/Debug/net8.0
+/haai_Backend/haai_Backend.AdminPortal/bin/Debug/net8.0

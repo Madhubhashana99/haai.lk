@@ -1,0 +1,6 @@
+@haai_Backend.Presentation_HostAddress = http://localhost:5078
+
+GET {{haai_Backend.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

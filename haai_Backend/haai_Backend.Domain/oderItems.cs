@@ -19,9 +19,9 @@ namespace haai_Backend.Domain
         [Required]
         public int ProductId { get; set; }
 
-        [Required]
+        
         [MaxLength(100)]
-        public string ProductName { get; set; }
+        public required string ProductName { get; set; }
 
         [Required]
         [Column(TypeName = "decimal(18, 2)")]

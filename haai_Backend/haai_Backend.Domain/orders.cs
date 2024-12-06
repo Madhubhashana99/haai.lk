@@ -20,9 +20,8 @@ namespace haai_Backend.Domain
         [Required]
         public decimal Price { get; set; }
 
-        [Required]
         [MaxLength(50)] // Restrict status to a maximum of 50 characters
-        public string Status { get; set; }
+        public string? Status { get; set; }
 
         [Required]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

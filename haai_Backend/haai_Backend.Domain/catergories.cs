@@ -15,17 +15,17 @@ namespace haai_Backend.Domain
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
 
-        [Required]
+       
         [MaxLength(100)]
-        public string Name { get; set; }
+        public required string Name { get; set; }
 
         [MaxLength(255)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         public int? ParentCategoryId { get; set; }
 
         [ForeignKey(nameof(ParentCategoryId))]
-        public Category ParentCategory { get; set; }
+        public Category? ParentCategory { get; set; }
 
         public ICollection<Category> SubCategories { get; set; } = new List<Category>();
 
